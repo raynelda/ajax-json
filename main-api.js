@@ -21,7 +21,7 @@ submitBtn.addEventListener('click', function() {
 });
 
 function showMe(data) {		
-		document.getElementById("container").style.color = "magenta";
+		document.getElementById("container").style.color = "#FF00FF";
 		document.getElementById("container").style.fontSize = "xx-large";
 		var container = document.getElementById("container");
 		container.innerHTML = data.main.temp + ' &#8457 in ' + userCity.value;	
