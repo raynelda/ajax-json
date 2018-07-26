@@ -24,5 +24,8 @@ function showMe(data) {
 		document.getElementById("container").style.color = "#FF00FF";
 		document.getElementById("container").style.fontSize = "xx-large";
 		var container = document.getElementById("container");
-		container.innerHTML = data.main.temp + ' &#8457 in ' + userCity.value;	
-	};
+		container.innerHTML = data.main.temp + '&#8457 in ' + userCity.value;	
+	}
+	console.log("why won't this push to github? where is it going instead?");
+	;
+	
